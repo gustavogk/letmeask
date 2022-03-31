@@ -27,7 +27,7 @@ type QuestionType = {
     isAnswered:  boolean;
     isHighlighted: boolean;
     likeCount: number;
-    hasLiked: boolean;
+    likeId: string | undefined;
 
 }
 
@@ -54,7 +54,7 @@ export function useRoom( roomId?: string){
                     isHighlighted: value.isHighlighted,
                     isAnswered: value.isAnswered,
                     likeCount: Object.values(value.likes ?? {}).length,
-                    hasLiked: Object.values(value.likes ?? {}).some(like => like.authorId === user?.id)
+                    likeId: Object.entries(value.likes ?? {}).find(([key, like]) => like.authorId === user?.id)?.[0],
                 }
             });
             setTittle(databaseRoom.title);

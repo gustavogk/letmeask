@@ -1,3 +1,4 @@
+import { remove } from 'firebase/database';
 import { FormEvent, useState } from 'react';
 import { useParams } from 'react-router-dom'
 
@@ -59,16 +60,19 @@ export function Room(){
         setNewQuestion('');
     }
 
-    async function handleLikeQuestion(questionId: string, hasLiked: boolean){
-        if(hasLiked){
-            //remover like
+    async function handleLikeQuestion(questionId: string, likeId: string | undefined){
+        if(likeId){
+            const db = getDatabase();
+            const likeRef = await ref(db, `rooms/${roomId}/questions/${questionId}/likes/${likeId}`)
+            
+            await remove(likeRef)
+
         } else {
             const db = getDatabase();
 
             const likeInfo = {
                 authorId: user?.id,
             }
-
             const likeRef = await ref(db, `rooms/${roomId}/questions/${questionId}/likes`);
             const newLike = await push(likeRef);
 
@@ -121,10 +125,10 @@ export function Room(){
                                 author={question.author}
                             >
                                 <button 
-                                    className={`like-button ${question.hasLiked ? 'liked' : ''}`}
+                                    className={`like-button ${question.likeId ? 'liked' : ''}`}
                                     type='button'
                                     aria-label='Marcar como gostei'
-                                    onClick={ () => {handleLikeQuestion(question.id, question.hasLiked)}}
+                                    onClick={ () => {handleLikeQuestion(question.id, question.likeId)}}
                                 >
                                     {question.likeCount > 0 && <span>{question.likeCount}</span>}
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -42,11 +42,17 @@ export function Home(){
         
         onValue(roomRef, (snapshot: DataSnapshot) => {
             if(snapshot.exists()){
+                if(snapshot.val().endedAt){
+                    alert('Room already closed.')
+                    return;
+                }
                 navigate(`/rooms/${roomCode}`)
             } else {
                 alert('Room does not exists.')
             }
         });
+
+        
 
         return
     }
