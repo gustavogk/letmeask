@@ -8,6 +8,19 @@
         margin-top: 8px;
     }
 
+    &.highlighted {
+        background: #f4f0ff;
+        border: 1px solid #835afd;
+
+        footer .user-info span {
+            color: #29292e;
+        }
+    }
+
+    &.answered {
+        background: #DBDCDD;
+    }
+
     P {
         color: #29292e;
     }
@@ -29,10 +42,16 @@
             }
 
             span {
-                margin-left: 8px;
+                //margin-left: 0px;
                 color: #737380;
                 font-size: 14px;
             }
+        }
+
+        > div {
+            display: flex;
+            gap: 16px;
+
         }
 
         button {
