@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/images/logo.svg" width="200"/> 
+  <img src="src/assets/images/logo.svg" width="300"/> 
 </p>
 
 <p align="center">	
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  👏  Projeto desenvolvido durante a NLW ( Next Level Week ) da | <a href="https://github.com/Rocketseat">@Rocketseat</a>
+  💬  Projeto desenvolvido durante a NLW ( Next Level Week ) da | <a href="https://github.com/Rocketseat">@Rocketseat</a>
 </p>
 
 <div align="center">
