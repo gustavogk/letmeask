@@ -38,6 +38,12 @@ This project was made using the follow technologies:
 * [Firebase](https://firebase.google.com/)
 * [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/)
   
+  # :camera: Screenshots
+  
+<div align="center">
+   <img src="./.github/home.png" width="1200px">
+</div>
+  
  # :page_facing_up: License
 
 This project is under the [MIT license](./LICENSE).
