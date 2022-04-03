@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="'./src/assets/images/logo.svg" width="200"/> 
+  <img src="src/assets/images/logo.svg" width="300"/> 
 </p>
 
 <p align="center">	
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  👏  Projeto desenvolvido durante a NLW ( Next Level Week ) da | <a href="https://github.com/Rocketseat">@Rocketseat</a>
+  💬  Projeto desenvolvido durante a NLW ( Next Level Week ) da | <a href="https://github.com/Rocketseat">@Rocketseat</a>
 </p>
 
 <div align="center">
@@ -23,3 +23,30 @@
     <h1></h1>
   </sub>
 </div>
+  
+  # 📌 Contents
+
+* [Technologies](#rocket-technologies) 
+* [Screenshots](#camera-screenshots) 
+* [License](#page_facing_up-license)
+
+  # :rocket: Technologies
+This project was made using the follow technologies:
+
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)      
+* [Firebase](https://firebase.google.com/)
+* [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/)
+  
+  # :camera: Screenshots
+  
+<div align="center">
+   <img src="./.github/home.png" width="1200px">
+</div>
+  
+ # :page_facing_up: License
+
+This project is under the [MIT license](./LICENSE).
+Made with 💖 by [Gustavo Assunção](https://www.linkedin.com/in/gustavo-gk/). 
+
+Thank you! 🌠
