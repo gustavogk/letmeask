@@ -43,7 +43,8 @@ This project was made using the follow technologies:
 <div align="center">
    <img src="./.github/home.png" width="1200px">
    <img src="./.github/newRoom.png" width="1200px">
-  <img src="./.github/reactRoom.png" width="1200px">
+   <img src="./.github/roomReact.png" width="1200px">
+   <img src="./.github/roomAdmin.png" width="1200px">
 </div>
   
 # :page_facing_up: License
