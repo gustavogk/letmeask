@@ -24,13 +24,13 @@
   </sub>
 </div>
   
-  # 📌 Contents
+# 📌 Contents
 
 * [Technologies](#rocket-technologies) 
 * [Screenshots](#camera-screenshots) 
 * [License](#page_facing_up-license)
 
-  # :rocket: Technologies
+# :rocket: Technologies
 This project was made using the follow technologies:
 
 * [Typescript](https://www.typescriptlang.org/)      
@@ -38,13 +38,14 @@ This project was made using the follow technologies:
 * [Firebase](https://firebase.google.com/)
 * [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/)
   
-  # :camera: Screenshots
+# :camera: Screenshots
   
 <div align="center">
    <img src="./.github/home.png" width="1200px">
+  <img src="./.github/newRoom.png" width="1200px">
 </div>
   
- # :page_facing_up: License
+# :page_facing_up: License
 
 This project is under the [MIT license](./LICENSE).
 Made with 💖 by [Gustavo Assunção](https://www.linkedin.com/in/gustavo-gk/). 
