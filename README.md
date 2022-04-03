@@ -23,3 +23,24 @@
     <h1></h1>
   </sub>
 </div>
+  
+  # 📌 Contents
+
+* [Technologies](#rocket-technologies) 
+* [Screenshots](#camera-screenshots) 
+* [License](#page_facing_up-license)
+
+  # :rocket: Technologies
+This project was made using the follow technologies:
+
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)      
+* [Firebase](https://firebase.google.com/)
+* [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/)
+  
+ # :page_facing_up: License
+
+This project is under the [MIT license](./LICENSE).
+Made with 💖 by [Gustavo Assunção](https://www.linkedin.com/in/gustavo-gk/). 
+
+Thank you! 🌠
